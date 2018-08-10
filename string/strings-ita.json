@@ -1,0 +1,262 @@
+
+  {
+    "lang": "it",
+    "translate": "translate",
+    "description": "Sito Web di Fabrizio Silvestri | Tecnico ICL-PRO e Sviluppatore residente a Genova. Applicativi Web e Mobile",
+    "credentials": "Silvestri Fabrizio",
+    "keywords": "web developer, web designer, informatica, siti internet, computer",
+    "title": "Silvestri Fabrizio | Developer",
+    "knowledge":"Competenze",
+    "portfolio":"Portfolio",
+    "training": "Percorso",
+    "team":"Team",
+    "contact":"Contattami",
+
+    "introSubtitle": "Questo è il mio sito",
+    "introTitle": "Benvenuto",
+    "introButton": "Scopri",
+
+    "knowledgeSubtitle": "Cosa ho imparato nei miei studi",
+    "knowledges": [
+      {
+        "icon": "fa-database",
+        "title": "Database",
+        "body": "Progettazione e manutenzione di Database SQL (MySQL e PostgreSQL) e comprensione base di Database NoSQL (MongoDB)."
+      },
+      {
+        "icon": "fa-code",
+        "title": "Applicativi Web",
+        "body": "Prediligo la parte client (HTML5, CSS3, JavaScript) ma ho solide competenze anche lato server (PHP)."
+      },
+      {
+        "icon": "fa-android",
+        "title": "App Android",
+        "body": "Progetto e sviluppo applicativi android con cura per il design e l'esperienza utente."
+      },
+      {
+        "icon": "fa-laptop",
+        "title": "C# e Java",
+        "body": "Buon livello di programmazione orientata agli oggetti e conoscenza di Eclipse e Visual Studio."
+      },
+      {
+        "icon": "fa-bug",
+        "title": "Testing",
+        "body": "Svolgo testing degli applicativi tramite Framework (JUnit, NUnit)."
+      },
+      {
+        "icon": "fa-code-fork",
+        "title": "Versioning",
+        "body": "Ottime conoscenze delle funzionalità di GIT da terminale e del portale GitHub."
+      }
+    ],
+
+    "portfolioSubtitle": "I miei progetti.",
+    "visit": "visita",
+    "relation": "relazione",
+    "date": "Data",
+    "category": "Categoria",
+    "closeProject": "Chiudi Projetto",
+    "projects": [
+      {
+        "img": "img/portfolio/EventAround-thumbnail.jpg",
+        "title": "EventAround",
+        "subtitle": "Sito web per la ricerca di eventi.",
+        "preview": "img/portfolio/EventAround-full.jpg",
+        "description": "Sviluppato per un progetto universitario. L'applicativo permette di ricercare su una mappa eventi inseriti dagli utenti utilizzando dei filtri di ricerca.<br/>Ogni utente può aggiungere nuovi eventi ed amministrarli, segnalare il proprio interesse verso altri eventi e visionare i profili degli altri utenti.<br/>Il progetto contiene anche una parte riservata agli amministratori per porter gestire la piattaforma.",
+        "link": null,
+        "relation": "pdf/EventAround.pdf",
+        "date": "Lugio 2017",
+        "for": "Corso: Sviluppo Applicativi Web - UNIGE",
+        "category": "Web"
+      },
+      {
+        "img": "img/portfolio/EventAroundApp-thumbnail.jpg",
+        "title": "EventAround App",
+        "subtitle": "App per la ricerca di eventi.",
+        "preview": "img/portfolio/EventAroundApp-full.png",
+        "description": "Applicazione che riprende le funzionalita le sito EventAround sviluppato in precedenza.<br/> Permette di ricercare eventi e di aggiungerne al sistema. Inoltre possiede la funzionalità di notificare la presenza di eventi interessati e altre funzionalità.",
+        "link": null,
+        "relation": "pdf/EventAroundApp.pdf",
+        "date": "Ottobre 2017",
+        "for": "Corso: Laboratorio Progettazione e Analisi Algoritmi - UNIGE",
+        "category": "Android"
+      },
+      {
+        "img": "img/portfolio/Parisi-thumbnail.jpg",
+        "title": "Rocco Parisi",
+        "subtitle": "Sito del musicista Rocco Parisi.",
+        "preview": "img/portfolio/Parisi-full.jpg",
+        "description": "Sito dinamico che permette di visualizzare tutte le nuove attività del musicista aggiornate tramite un area amministrativa.",
+        "link": "http://www.roccoparisi.com",
+        "relation": null,
+        "date": "Settembre 2017",
+        "for": "Cliente: Rocco Parisi",
+        "category": "Web"
+      },
+      {
+        "img": "img/portfolio/ASDI-thumbnail.jpg",
+        "title": "A.S.D.I. Liguria",
+        "subtitle": "Sito per Associazione O.N.L.U.S.",
+        "preview": "img/portfolio/ASDI-full.jpg",
+        "description": "Aggiornamento del sito dell'associazione A.S.D.I. Liguria implementando un design responsive e una maggiore fluidità nella anvigazione per poter ottenere subito le informazioni principali. Sviluppato utilizzando animazioni e grafica di Bootstrap.",
+        "link": "http://silvestri.online/ASDILiguria/",
+        "relation": null,
+        "date": "Dicembre 2017",
+        "for": "Cliente: A.S.D.I. Liguria",
+        "category": "web"
+      },
+      {
+        "img": "img/portfolio/TAP-thumbnail.jpg",
+        "title": "Libreria per Agenzia di viaggio",
+        "subtitle": "Progetto per il corso di Tecniche Avanzate di Programmazione",
+        "preview": "img/portfolio/TAP-full.jpg",
+        "description": "Il Progetto è una soluzione semplificata del problema della pianificazione di un viaggio tra le città, consiste in due componenti correlati:<br/><ul><li>La Componente della Travel Company, che viene utilizzata per gestire le confederazioni delle società di viaggio, dove le presenti Travel Company sono fornitrici di tratte città-città;</li><li>Il componente Planner, che utilizza le società di viaggio per pianificare viaggi multi-tratta tra città.</li></ul><br/>Tramite questo progetto ho preso confidenza con il linguaggio C# e la programmazione Test Driven Development.",
+        "link": null,
+        "relation": "pdf/TAP-TravelComponents.pdf",
+        "date": "Gennaio 2018",
+        "for": "Corso: Tecniche Avanzate di Programmazione",
+        "category": "C#"
+      },
+      {
+        "img": "img/portfolio/PCAD-thumbnail.jpg",
+        "title": "Software Amministrazione Acquario",
+        "subtitle": "Progetto per il corso di Programmazione Concorrente e Algoritmi Distribuiti",
+        "preview": "img/portfolio/PCAD-full.jpg",
+        "description": "Il progetto consiste in una componente lato server e una lato client.<br/>Nella prima si gestiscono le sale di un ipotetico acquario aggiungendo o rimuovendo collegamenti tra queste. Nell'area a destra sono visualizzati dati sugli utenti connessi e valori statistici delle sale.<br/>Nel lato client invece si effettua la registrazione al sistema e si visualizzano le informazioni delle sale potendo spostarsi in quelle adiacenti.",
+        "link": "https://github.com/FabriSilve/PCAD_Project",
+        "relation": null,
+        "date": "Febbraio 2017",
+        "for": "Corso: Programmazione Concorrente e Algoritmi Distribuiti",
+        "category": "Java"
+      },
+      {
+        "img":"img/portfolio/PocketIFM-thumbnail.jpg",
+        "title": "Tesi: Framework Angular",
+        "subtitle": "Progetto svolto durante il tirocinio presso IFM Group",
+        "preview": "img/portfolio/PocketIFM-full.jpg",
+        "description": "Lo scopo del progetto svolto durante il tirocinio era lo sviluppo di un applicativo che esemplificasse l’uso delle Web Api messe a disposizione dall’azienda.",
+        "link": "https://fabrisilve.github.io/PocketIFM/",
+        "relation": "https://github.com/FabriSilve/PocketIFM",
+        "date": "Febbraio 2018",
+        "for": "Azienda: IFM Group",
+        "category": "Web"
+      },{
+        "img":"img/portfolio/Reddit-thumbnail.jpg",
+        "title": "Reddit Client",
+        "subtitle": "Un interfaccia client che utilizza le Web API di Reddit",
+        "preview": "img/portfolio/Reddit-full.jpg",
+        "description": "Questo progetto è un client responsive basato sulle Web API di Rddit. L'obiettivo principale di questo progetto era il fare pratica con le interfacce utente dinamiche. L'utente ha la possibilità di effettuare ricerche tramite parole chiave e aprire un elemento per poterne leggere descrizione e commenti<br/><br/><strong>Front End:</strong> HTML5, CSS3, TypeScript, Angular, Bootstrap - <strong>Back End:</strong> Reddit Web API",
+        "link": "https://fabrisilve.github.io/RedditTest/",
+        "relation": "https://github.com/FabriSilve/RedditTest",
+        "date": "Aprile 2018",
+        "for": "Pratica",
+        "category": "Web"
+      }
+    ],
+
+    "trainingSubtitle": "Mi chiamo Fabrizio Silvestri e sono nato Genova il maggio del 1993.",
+    "stages": [
+      {
+        "img": "img/about/1.jpg",
+        "date": "2012",
+        "title": "Diploma Superiori",
+        "description": "Mi sono diplomato all'ITIS I. Calvino di Genova, indirizzo Scientifico Tecnologico. Lo stesso anno mi sono iscritto ad Ingegneria Informatica."
+      },
+      {
+        "img": "img/about/2.jpg",
+        "date": "2014",
+        "title": "Iscrizione Scienze Informatiche",
+        "description": "Ho riconosciuto che ingegneria non era la strada corretta per me e ho deciso di iscrivermi al corso di Laurea in Informatica sempre presso l'Università degli Studi di Genova."
+      },
+      {
+        "img": "img/about/3.jpg",
+        "date": "Ottobre 2016",
+        "title": "Corso ICL-PRO",
+        "description": "Ho seguito un corso presso l'Istituto Gamma di Milano ottenendo la certificazione ICL-PRO Technical Specialist. Ho maturato così le competenze da Tecnico Informatico."
+      },
+      {
+        "img": "img/about/5.jpg",
+        "date": "11/2017 to 02-/2018",
+        "title": "Stage con IFM Group",
+        "description": "Ho fatto uno stage con IFM Group dove ho sviluppato un Web Dashboard per visualizzare i dati degli utenti. Ho fatto esperienza con il framework Angular 5 e questo è l'argomento principale della mia tesi."
+      },
+      {
+        "img": "img/about/4.jpg",
+        "date": "2018",
+        "title": "Laurea in Informatica",
+        "description": "Prevedo di completare i miei studi a luglio dell'anno 2018."
+      }
+
+    ],
+    "my": "il mio",
+    "curriculum":"CV_Silvestri_it",
+
+    "teamSubtitle": "Un lavoro di squadra",
+    "name": "Fabrizio",
+    "group": [
+      {
+        "img": "img/team/1.jpg",
+        "role": "Database Admin"
+      },
+      {
+        "img": "img/team/2.jpg",
+        "role": "Developer"
+      },
+      {
+        "img": "img/team/3.jpg",
+        "role": "UI Designer"
+      }
+    ],
+    "links": [
+      {
+        "link": "https://www.facebook.com/fabrizio.silvestri.33",
+        "icon": "fa-facebook"
+      },
+      {
+        "link": "https://www.linkedin.com/in/fabrizio-silvestri-96432b142/",
+        "icon": "fa-linkedin"
+      },
+      {
+        "link": "https://github.com/FabriSilve",
+        "icon": "fa-github"
+      }
+    ],
+    "aboutMe": "Attualmente svolgo assistenza informatica, progettazione e sviluppo di siti web di varia complessità, applicazioni desktop e mobile principalmente per testare le conoscenze che i miei studi mi hanno fornito.<br/>Vedo ogni nuovo progetto come una sfida personale nella quale impegnarmi per fare crescere ulteriormente le mie competenze.",
+
+    "badgesTitle": "I Miei Badges",
+    "badges" : [
+      {
+        "link": "https://www.codeschool.com/learn-angular-js-with-bootstrap",
+        "img": "img/bedges/angular.png",
+        "alt": "Angular - CodeSchool"
+      },
+      {
+        "link": "https://www.codeschool.com/mean",
+        "img": "img/bedges/mean.png",
+        "alt": "MEAN - CodeSchool"
+      },
+      {
+        "link": "https://www.codeschool.com/courses/real-time-web-with-node-js",
+        "img": "img/bedges/nodejs.png",
+        "alt": "NodeJS - CodeSchool"
+      },
+      {
+        "link": "https://www.codeschool.com/courses/blasting-off-with-bootstrap",
+        "img": "img/bedges/bootstrap.png",
+        "alt": "Bootstrap - CodeSchool"
+      },
+      {
+        "link": "https://corsosicurezza.aulaweb.unige.it/",
+        "img": "img/bedges/SicurezzaeSalute.png",
+        "alt": "Sicurezza E Salute - UNIGE"
+      }
+
+    ],
+
+    "contactSubtitle": "Ti risponderò il prima possibile.",
+    "contactName": "Il tuo Nome",
+    "contactMail": "La tua Mail",
+    "contactMessage": "Il tuo Messaggio",
+    "contactSend": "Invia"
+  }
+
