@@ -1,4 +1,4 @@
-{
+var strings = {
   "lang": "en",
   "translate": "traduci",
   "description": "Fabrizio Silvestri Website | ICL-PRO Technical and Developer",
