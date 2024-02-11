@@ -26,8 +26,19 @@ export const useProjectStore = defineStore<string, ProjectStore>("projectStore",
             link: "https://github.com/FabriSilve/RedditTest",
             featured: true,
         },
+    ];
+
+    const grave = [
         {
-            id: 3,
+            id: 1,
+            name: "Thesis: Framework Angular",
+            image: images["../assets/featured/PocketIFM.jpg"],
+            description: "The main aim of the project was develop a web application that exemplified how use company web api.",
+            tech: ["Angular", "NodeJs", "CSS3"],
+            link: "https://fabrisilve.github.io/PocketIFM",
+        },
+        {
+            id: 2,
             name: "Aquarium Administrator Software",
             image: images["../assets/featured/acquarium.jpg"],
             description: "Acquarium Dashboard to monitor presence of users registered with the client app in the different rooms. The App allowed the customer to read the information about the rooms and they could move following paths.",
@@ -36,7 +47,7 @@ export const useProjectStore = defineStore<string, ProjectStore>("projectStore",
             featured: false,
         },
         {
-            id: 4,
+            id: 3,
             name: "Library for Travel Agency",
             image: images["../assets/featured/travel_library.jpg"],
             description: "The project is a simplified solution to the problem of planning trips between cities and it consists of two related components. The Travel Company Component is used to manage confederations of Travel Companies, any Travel Company is a provider of point-to-point path. The Planner Component uses Travel Companies to plan a multi-hops trips between cities. With this project I became familiar with the C# language and Test Driven Development.",
@@ -61,17 +72,6 @@ export const useProjectStore = defineStore<string, ProjectStore>("projectStore",
             tech: ["Android", "Java", "MySQLi"],
             link: pdfs["../assets/pdf/eaapp.pdf"],
             featured: false,
-        },
-    ];
-
-    const grave = [
-        {
-            id: 1,
-            name: "Thesis: Framework Angular",
-            image: images["../assets/featured/PocketIFM.jpg"],
-            description: "The main aim of the project was develop a web application that exemplified how use company web api.",
-            tech: ["Angular", "NodeJs", "CSS3"],
-            link: "https://fabrisilve.github.io/PocketIFM",
         },
     ]
 
