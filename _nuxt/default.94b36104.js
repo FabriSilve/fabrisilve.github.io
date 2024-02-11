@@ -1,0 +1,1 @@
+import{a as s,o as t,b as a,p as o,x as l}from"./entry.99159765.js";const c={},r={class:"w-full"},n={class:"max-w-screen-lg w-full mt-16 mb-20 px-8 mx-auto pb-24 sm:mt-28 sm:px-16 slg:px-24 lg:mt-48 lg:mt-58"};function m(e,_){return t(),a("div",r,[o("div",n,[l(e.$slots,"default")])])}const f=s(c,[["render",m]]);export{f as default};
