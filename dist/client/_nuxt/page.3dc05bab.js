@@ -1,0 +1,1 @@
+import{a as o,o as s,b as a,x as t}from"./entry.3efc0c0e.js";const c={},l={class:"flex flex-col gap-8 lg:gap-12 w-full"};function r(e,n){return s(),a("div",l,[t(e.$slots,"default")])}const _=o(c,[["render",r]]);export{_ as default};

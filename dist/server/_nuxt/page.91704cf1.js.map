@@ -1,0 +1,1 @@
+{"version":3,"file":"page.91704cf1.js","sources":["../../../../layouts/page.vue"],"sourcesContent":["<template>\n  <div class=\"flex flex-col gap-8 lg:gap-12 w-full\">\n    <slot/>\n  </div>\n</template>"],"names":[],"mappings":";;;;;;;;;;;;;;;;AACO,SAAA,eAAA,MAAA,OAAA,SAAA,QAA4C;;;;;;;;;;;;"}
