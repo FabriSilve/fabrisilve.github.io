@@ -12,4 +12,8 @@ export default defineNuxtConfig({
         path: '~/components', pathPrefix: false,
     }],
     content: {},
+    target: 'static',
+    router: {
+        base: '/'
+    }
 })

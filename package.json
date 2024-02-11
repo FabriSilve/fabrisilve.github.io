@@ -1,6 +1,8 @@
 {
   "homepage": "https://FabriSilve.github.io/",
   "scripts": {
+    "predeploy": "nuxt generate",
+    "deploy": "gh-pages --nojekyll --dotfiles -d .output/public",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -8,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "nuxt": "3.0.0-rc.11"
   },
   "dependencies": {
