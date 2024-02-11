@@ -19,7 +19,7 @@
     </NuxtLayout>
   </div>
   <MainParagraph>
-    <NuxtLink to="projects">Read more...</NuxtLink>
+    <InlineLink to="projects">Read more...</InlineLink>
   </MainParagraph>
 </template>
 

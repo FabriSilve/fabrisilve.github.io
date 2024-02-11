@@ -18,7 +18,7 @@ const images = import.meta.glob("./assets/pageMeta/*.{png,svg,ico}", {
 });
 
 useHead({
-  title: "Fabrizio Silvestri",
+  title: "FabriSilve",
   link: [
     {
       rel: "icon",
@@ -28,7 +28,7 @@ useHead({
     },
     {
       property: "og:title",
-      content: "Fabrizio Silvestri",
+      content: "FabriSilve",
     },
     {
       name: "description",
