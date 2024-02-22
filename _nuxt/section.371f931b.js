@@ -1,1 +1,0 @@
-import{a as o,o as s,b as t,q as c}from"./entry.df9d9589.js";const a={},n={class:"flex flex-col gap-2 lg:gap-2"};function r(e,l){return s(),t("div",n,[c(e.$slots,"default")])}const _=o(a,[["render",r]]);export{_ as default};
