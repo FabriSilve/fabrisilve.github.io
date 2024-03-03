@@ -18,6 +18,15 @@
       <p class="text-sm md:text-base">
         {{ description }}
       </p>
+      <div class="flex gap-2">
+        <div
+          v-for="t in tech"
+          :key="t"
+          class="grid select-none items-center whitespace-nowrap rounded-lg bg-white py-0.5 px-2 text-xs font-italic uppercase text-black"
+        >
+          <span>{{t}}</span>
+        </div>
+      </div>
     </div>
   </a>
 </template>

@@ -13,6 +13,7 @@
           :image="proj.image"
           :link="proj.link"
           :name="proj.name"
+          :tech="proj.tech"
       />
     </div>
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25"/>
@@ -20,7 +21,11 @@
       <SectionTitle>Graveyard</SectionTitle>
       <p>Projects I worked on and are no longer maintained.</p>
       <div class="flex flex-col mt-10 gap-6">
-        <GraveyardItem v-for="proj in grave" :key="proj.id" :project="proj"/>
+        <GraveyardItem
+          v-for="proj in grave"
+          :key="proj.id"
+          :project="proj"
+        />
       </div>
     </NuxtLayout>
   </NuxtLayout>
