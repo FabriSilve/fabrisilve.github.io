@@ -24,7 +24,11 @@
         <GraveyardItem
           v-for="proj in grave"
           :key="proj.id"
-          :project="proj"
+          :description="proj.description"
+          :image="proj.image"
+          :link="proj.link"
+          :name="proj.name"
+          :tech="proj.tech"
         />
       </div>
     </NuxtLayout>
