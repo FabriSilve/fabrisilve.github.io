@@ -1,10 +1,10 @@
 <template>
   <li class="text-sm leading-6">
     <div class="relative group">
-      <div
-        class="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200">
+      <div class="absolute rounded-lg opacity-100 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur">
       </div>
-      <div class="relative p-6 space-y-6 leading-none rounded-lg bg-slate-800 ring-1 ring-gray-900/5">
+      <div
+        class="relative p-6 space-y-6 leading-none rounded-lg bg-item_back hover:bg-item_hover_back ring-1 ring-gray-900/5">
         <div class="flex items-center justify-between space-x-4">
           <div>
             <h3 class="text-lg font-semibold text-white">{{name}}</h3>
