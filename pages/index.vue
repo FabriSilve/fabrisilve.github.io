@@ -4,6 +4,8 @@
     <TheSocials />
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25" />
     <FeaturedProjects />
+    <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25" />
+    <Reviews />
   </div>
 </template>
 

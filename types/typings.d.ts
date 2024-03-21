@@ -26,3 +26,14 @@ export type Work = {
 export type WorkStore = {
     getAllWorks: Work[];
 }
+
+export type Review = {
+    id: number;
+    review: string;
+    name: string;
+    link: string;
+}
+
+export type ReviewStore = {
+    getAllReviews: Rewiew[];
+}

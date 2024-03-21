@@ -1,5 +1,5 @@
-import {defineStore} from "pinia";
-import {WorkStore} from "~/types/typings";
+import { defineStore } from "pinia";
+import { WorkStore } from "~/types/typings";
 
 export const useWorkStore = defineStore<string, WorkStore>("workStore", () => {
     const works = [
