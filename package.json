@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@types/node": "^18.11.1",
     "gh-pages": "^6.1.1",
     "nuxt": "3.0.0-rc.11"
   },
