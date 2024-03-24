@@ -30,7 +30,15 @@
       <div class="flex flex-col gap-5">
         <SectionTitle>Experience <LinkBtn :link="resumeLink" text="(Resume)"/></SectionTitle>
         <NuxtLayout name="section">
-          <WorkListItem v-for="work in works" :key="work.id" :work="work"/>
+          <WorkListItem
+            v-for="work in works"
+            :key="work.id"
+            :name="work.name"
+            :position="work.position"
+            :link="work.link"
+            :to="work.to"
+            :from="work.from"
+          />
         </NuxtLayout>
       </div>
     </NuxtLayout>

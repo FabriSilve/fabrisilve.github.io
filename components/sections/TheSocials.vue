@@ -22,6 +22,5 @@
 </template>
 
 <script setup lang="ts">
-import ActionButton from "../ui/ActionButton.ts";
 import SocialIcon from "../ui/SocialIcon.ts";
 </script>
