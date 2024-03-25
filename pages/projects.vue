@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout name="page">
       <MainTitle>Projects</MainTitle>
-      <MainParagraph class="-mt-2">
+      <MainParagraph>
         Here are personal projects I've worked on in my past years. Not all are great but they have been really nice experiments.
       </MainParagraph>
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25"/>

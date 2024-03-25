@@ -27,10 +27,6 @@
     </div>
   </li>
 </template>
-<script>
-export default {
-  setup() {
-  },
-  props: ["name", "link", "review", "role"],
-};
+<script setup lang="ts">
+defineProps(["name", "link", "review", "role"]);
 </script>

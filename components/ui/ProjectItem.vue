@@ -11,9 +11,7 @@
     />
     <div class="flex flex-col justify-between gap-4 slg:gap-5">
       <span class="font-theme_bold text-lg text-head_text slg:text-xl">
-        {{
-          name
-        }}
+        {{ name }}
       </span>
       <p class="text-sm md:text-base">
         {{ description }}
@@ -30,10 +28,6 @@
     </div>
   </a>
 </template>
-<script>
-export default {
-  setup() {
-  },
-  props: ["name", "image", "description", "tech", "link"],
-};
+<script setup lang="ts">
+defineProps(["name", "image", "description", "tech", "link"]);
 </script>

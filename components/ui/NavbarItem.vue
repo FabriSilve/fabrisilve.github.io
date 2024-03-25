@@ -8,7 +8,5 @@
   </NuxtLink>
 </template>
 <script setup>
-defineProps({
-  to: String
-})
+defineProps(['to'])
 </script>

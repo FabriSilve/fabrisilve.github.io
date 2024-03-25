@@ -1,12 +1,12 @@
 <template>
-  <NuxtLink :to="to">
-  <span
+  <a
     class="border-b-2 border-link_border hover:border-link_border_hover hover:text-link_text_hover transition-colors text-link"
+    :href="link"
+    target="_blank"
   >
-    <slot/>
-  </span>
-  </NuxtLink>
+    {{text}}
+  </a>
 </template>
 <script setup lang="ts">
-defineProps(['to'])
+defineProps(["text", "link"]);
 </script>

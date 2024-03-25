@@ -32,13 +32,8 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { Icon } from "@iconify/vue";
-
-const returnDomain = (domain) =>
-  domain
-    .match(/(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]/)
-    .pop();
 
 defineProps(["key", "name", "image", "description", "tech", "link"]);
 </script>

@@ -4,12 +4,9 @@
     :link="link"
     target="_blank"
   >
-    <slot></slot>
+    <slot />
   </a>
 </template>
-<script>
-const ActionButton = {
-  setup() {},
-  props: ["link"]
-}
+<script setup lang="ts">
+defineProps(['link']);
 </script>

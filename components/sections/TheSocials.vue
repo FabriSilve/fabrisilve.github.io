@@ -20,7 +20,3 @@
     <ActionButton link="mailto:fabri.silve.fs@gmail.com">Email Me</ActionButton>
   </div>
 </template>
-
-<script setup lang="ts">
-import SocialIcon from "../ui/SocialIcon.ts";
-</script>
