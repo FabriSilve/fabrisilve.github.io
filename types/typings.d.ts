@@ -32,8 +32,11 @@ export type Review = {
     review: string;
     name: string;
     link: string;
+    role: string;
+    highlighted?: boolean;
 }
 
 export type ReviewStore = {
     getAllReviews: Rewiew[];
+    getBestReviews: Review[];
 }
