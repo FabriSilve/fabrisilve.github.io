@@ -1,0 +1,1 @@
+import{h as o}from"./entry.8c642f9f.js";const s=(t,e)=>o("a",{class:"bg-btn_back border-[1px] border-link_border px-2 py-2 rounded-md font-theme_bold text-btn_text text-sm hover:bg-border_sm transition-colors md:px-4 slg:text-base slg:px-6 slg:py-3 w-fit",href:t.link,target:"_blank"},e.slots.default());export{s as _};
