@@ -1,0 +1,1 @@
+import{h as t}from"./entry.99c201e9.js";const n=(r,e)=>t("a",{class:"border-b-2 border-link_border hover:border-link_border_hover hover:text-link_text_hover transition-colors text-link",href:r.link,target:"_blank"},r.text);export{n as _};
