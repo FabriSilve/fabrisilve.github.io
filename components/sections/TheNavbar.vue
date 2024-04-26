@@ -18,9 +18,9 @@
       <NavbarItem to="/about">
         About
       </NavbarItem>
-      <NavbarItem to="/reviews">
+      <!-- <NavbarItem to="/reviews">
         Reviews
-      </NavbarItem>
+      </NavbarItem> -->
       <NavbarItem to="/projects">
         Projects
       </NavbarItem>
