@@ -3,6 +3,7 @@ export default defineNuxtConfig({
     modules: [
         '@nuxtjs/tailwindcss',
         '@pinia/nuxt',
+        'nuxt-gtag',
     ],
     tailwindcss: {
         cssPath: '~/assets/css/tailwind.css',
@@ -15,5 +16,8 @@ export default defineNuxtConfig({
     target: 'static',
     router: {
         base: '/'
+    },
+    gtag: {
+        id: 'G-ZVJQWJZ9BT'
     }
 })
