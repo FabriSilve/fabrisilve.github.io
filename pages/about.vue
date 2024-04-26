@@ -4,10 +4,10 @@
       <img :src="TopImage" class="w-full h-64 rounded-xl object-cover"/>
       <div class="flex flex-col gap-6 lg:gap-9 mx-auto w-full md:w-10/12">
         <SectionParagraph>
-          I'm Fabrizio Silvestri, an Italian in Sweden with never-stopping love for learning new tech. I am specialised in Web Development and Software tools to support DevX. I am passionate about coding64nd designing tech solutions for live problems.
+          I'm Fabrizio Silvestri, an Italian in Sweden with never-stopping love for learning new tech. I am specialised in Web Development and Software tools to support DevX. I am passionate about coding and designing tech solutions for live problems.
         </SectionParagraph>
         <SectionParagraph>
-          I'm currently working full time as CTO for <LinkBtn link="https://www.moank.se/" text="Moank AB"/>, a cool heavy tech oriented bank based in Stockholm. I got "adobted" by the founders of the company in mid 2018 after graduating. The company was still at a Startup phase and I've been working on the development of the bank's core system since I was a Junior Developer.
+          I'm currently working full time as CTO for <LinkBtn link="https://www.moank.se/" text="Moank AB"/>, a cool heavy tech oriented bank based in Stockholm. I got "adopted" by the founders of the company in mid 2018 after graduating. The company was still at a Startup phase and I've been working on the development of the bank's core system since I was a Junior Developer.
         </SectionParagraph>
         <SectionParagraph>
           During this career opportunity I had the chance to mature to my current position passing through the roles of Senior Developer and Engineer Project Manager. I refined my skills in the stack used by the company: React, NodeJS, Typescript, MongoDB, AWS Cloud and Docker. I also had the chance to work with Python and Falcon for some internal tools.
