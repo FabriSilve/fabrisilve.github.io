@@ -27,6 +27,17 @@
         />
       </ul>
     </div>
+    <!-- <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25"/>
+    <div class="flex ">
+      <MainParagraph class="mx-2">
+        Did you worked with me and do you want to leave me a review to help me improve?
+      </MainParagraph>
+      <div>
+        <button data-modal-target="default-modal" data-modal-toggle="default-modal" type="button" class="bg-btn_back border-[1px] border-link_border px-2 py-2 rounded-md font-theme_bold text-btn_text text-sm hover:bg-border_sm transition-colors md:px-4 slg:text-base slg:px-6 slg:py-3 w-fit">
+          Contact&nbsp;Me
+        </button>
+      </div>
+    </div> -->
   </NuxtLayout>
 </template>
 
@@ -34,7 +45,6 @@
 import {useReviewStore} from "~/store/reviewStore";
 
 const { getAllReviews } = useReviewStore();
-console.log(getAllReviews)
 
 const reviewsCol1 = getAllReviews.slice(0, Math.ceil(getAllReviews.length / 2));
 const reviewsCol2 = getAllReviews.slice(Math.ceil(getAllReviews.length / 2));
