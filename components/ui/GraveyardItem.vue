@@ -6,7 +6,7 @@
     <a
       :href="link"
       target="_blank"
-      class="font-theme_bold text-head_text text-lg"
+      class="font-theme_bold text-head_text text-md"
     >
       {{name}}
       <Icon
