@@ -4,73 +4,66 @@
       <img :src="TopImage" class="w-full h-64 rounded-xl object-cover" />
       <div class="flex flex-col gap-6 lg:gap-9 mx-auto w-full md:w-10/12">
         <SectionParagraph>
-          I'm Fabrizio Silvestri, an Italian in Sweden with never-stopping love for learning new tech. I am specialised
-          in Web Development and Software tools to support DevX. I am passionate about coding and designing tech
-          solutions for real live problems.
+          I'm Fabrizio Silvestri, an Italian living in Sweden with an unstoppable love for learning new tech. I
+          specialize in Web Development and Software Tools that support Developer Experience (DevX). I'm passionate
+          about coding and designing tech solutions for real-life problems.
         </SectionParagraph>
         <SectionParagraph>
-          I started learning about web development in my early high school years, where I was introduced to small
-          webpages with simple HTML, CSS and JS. After my high-school, I took the univeristy path to increase my skills
-          in this fascinating IT world and I graduated in Computer Science at the University of Genoa, Italy. During my
-          university years I had the chance to work on some small projects and I started to learn about the backend side
-          of the web with PHP, C#, Java and MySQL. I also started to learn about the Linux world and the terminal, which
-          is now my daily driver.
+          I began learning web development in high school, where I was introduced to small webpages using basic HTML,
+          CSS, and JavaScript. After high school, I pursued a degree in Computer Science at the University of Genoa,
+          Italy, to deepen my knowledge of this fascinating IT world. During university, I worked on several small
+          projects and started exploring backend development with PHP, C#, Java, and MySQL. I also began diving into the
+          Linux ecosystem and the terminal, which has since become my daily driver.
         </SectionParagraph>
         <SectionParagraph>
           You can find some of my experimental side projects on my
           <LinkBtn link="https://github.com/FabriSilve" text="Github" /> or on my
-          <LinkBtn link="/" text="Portfolio" /> page. I usually don't update my portfolio page but all my recent one's
-          are on github.
+          <LinkBtn link="/" text="Portfolio" /> page.
         </SectionParagraph>
         <SectionParagraph>
-          Outside of my work-life, I love to play Ukulele, doing Film Photography and Cooking. You can
-          follow along about my life on my
+          Outside of work, I enjoy playing the ukulele, doing film photography, and cooking. You can follow along with
+          my personal life on
           <LinkBtn link="https://www.instagram.com/fabri.silve" text="Instagram" />.
         </SectionParagraph>
 
         <SectionSeparator>Moank AB</SectionSeparator>
         <SectionParagraph>
-          I started my career working full time as full stack developer for
-          <LinkBtn link="https://www.moank.se/" text="Moank AB" />, a cool heavy tech oriented bank based in Stockholm.
-          I got "adopted" by the founders of the company in mid 2018 after graduating. The company was still at a
-          Startup phase and I've been working on the development of the bank's core system since I was a Junior
-          Developer.
+          I started my career as a full-time Full Stack Developer at
+          <LinkBtn link="https://www.moank.se/" text="Moank AB" />, a tech-oriented bank based in Stockholm. I was
+          “adopted” by the company’s founders in mid-2018 after graduating, when the company was still in its startup
+          phase. I contributed to the development of the bank’s core system from the very beginning, starting as a
+          Junior Developer.
         </SectionParagraph>
         <SectionParagraph>
-          During this career opportunity I had the chance to mature to the Engineer Manager and CTO position passing
-          through the roles of
-          Senior Developer and Engineer Project Manager. I refined my skills in the stack used by the company: React,
-          NodeJS, Typescript, MongoDB, AWS Cloud and Docker. I also had the chance to work with Python and Falcon for
-          some internal tools.
+          Over time, I advanced through several roles—Senior Developer, Engineering Project Manager—and eventually
+          became Engineering Manager and CTO. During this time, I refined my skills in Moank’s stack: React, Node.js,
+          TypeScript, MongoDB, AWS Cloud, and Docker. I also worked with Python and Falcon to build internal tools.
         </SectionParagraph>
         <SectionParagraph>
-          Given the small size of the company, I often had to wear multiple hats including the DevOps Engineer one,
-          setting up the CI/CD pipelines and the infrastructure on AWS using CDK. I also worked with the Product team,
-          helping panning the roadmap and the features for the projects. I became the tech reference for the company
-          mentoring and lead the other developers in the team and support the meetings with external partners.
+          Due to the small size of the company, I often wore multiple hats, including that of a DevOps Engineer—setting
+          up CI/CD pipelines and infrastructure on AWS using CDK. I collaborated with the Product team to help plan
+          roadmaps and features, and I became the company’s technical reference point—mentoring and leading other
+          developers, and supporting meetings with external partners.
         </SectionParagraph>
 
         <SectionSeparator>Mevisio AB</SectionSeparator>
         <SectionParagraph>
-          After a long dive in the banking industry, I decided to felt was my time to leave the company and start a new
-          adventure. I started working as a Full Stack Engineer for
-          <LinkBtn link="https://mevisio.com/" text="Mevisio AB" />, a small but active company developing a really
-          flexible tool to support work in factories. The main product is a platform completely customisable that
-          allowed the customer to generate the whiteboards for each team to smothly automise data visualisation and
-          information flows within all the company layers.
+          After several years in the banking sector, I felt it was time for a new adventure. I joined
+          <LinkBtn link="https://mevisio.com/" text="Mevisio AB" />, as a Full Stack Engineer. Mevisio is a small but
+          dynamic company building a highly flexible platform for factory workflows. The main product allows customers
+          to create customizable whiteboards to streamline data visualization and information flow across all company
+          levels.
         </SectionParagraph>
         <SectionParagraph>
-          The project is pushing to the edge several technologies and I'm really proud of the results I acheved there.
-          I've been working on the frontend side of the project with React, the backend with Node and the infrastructure
-          done on Kubernetes. The cherry on the cake of the project was an in house built compiler to support the
-          configuration of the full platform through the language the company defined.
+          The project pushes the boundaries of several technologies, and I’m proud of what I’ve achieved here. I’ve
+          worked on the frontend with React, the backend with Node.js, and infrastructure with Kubernetes. One highlight
+          was building an in-house compiler to configure the entire platform via a domain-specific language.
         </SectionParagraph>
         <SectionParagraph>
-          Beside the actual work on the codebase of the company, I had the luck of being part of a really experience
-          team where I was able to grow and learn a lot. Since I joined the company I decided to move into the Nvim
-          world and start exploring more terminal tools and AI coding agents. I had also multiple "opportunities" with
-          some performace issues or feature bugs on production to considerably increase my skills in debugging code I
-          didn't write to identify the failing code.
+          Beyond coding, I’ve been fortunate to work in a highly experienced team where I’ve learned and grown
+          significantly. Since joining, I’ve embraced the Neovim (Nvim) ecosystem and started exploring terminal-based
+          tools and AI coding agents. I’ve also had many hands-on opportunities to improve my debugging skills by
+          resolving performance issues and production bugs in unfamiliar codebases.
         </SectionParagraph>
       </div>
       <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-6" />
