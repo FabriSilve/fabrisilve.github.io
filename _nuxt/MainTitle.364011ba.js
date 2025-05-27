@@ -1,0 +1,1 @@
+import{h as t}from"./entry.894ee901.js";const s=(l,e)=>t("h1",{class:"text-xl sm:text-3xl md:text-4xl md:leading-normal slg:text-5xl slg:leading-relaxed font-theme_bold text-head_text"},[e.slots.default(),t("span",{class:"text-link_text_hover"},".")]);export{s as _};
