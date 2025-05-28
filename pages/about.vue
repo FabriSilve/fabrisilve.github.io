@@ -35,15 +35,15 @@
           Junior Developer.
         </SectionParagraph>
         <SectionParagraph>
-          Over time, I advanced through several roles—Senior Developer, Engineering Project Manager—and eventually
+          Over time, I advanced through several roles — Senior Developer, Team Leader — and eventually
           became Engineering Manager and CTO. During this time, I refined my skills in Moank’s stack: React, Node.js,
           TypeScript, MongoDB, AWS Cloud, and Docker. I also worked with Python and Falcon to build internal tools.
         </SectionParagraph>
         <SectionParagraph>
-          Due to the small size of the company, I often wore multiple hats, including that of a DevOps Engineer—setting
-          up CI/CD pipelines and infrastructure on AWS using CDK. I collaborated with the Product team to help plan
-          roadmaps and features, and I became the company’s technical reference point—mentoring and leading other
-          developers, and supporting meetings with external partners.
+          Due to the small size of the company, I often wore multiple hats, including the one of a DevOps Engineer
+          setting up CI/CD pipelines and infrastructure on AWS using CDK. I collaborated with the Product team to help
+          plan roadmaps and features. I became the company’s technical reference point mentoring junior
+          developers and supporting meetings with external partners.
         </SectionParagraph>
 
         <SectionSeparator>Mevisio AB</SectionSeparator>
@@ -52,7 +52,7 @@
           <LinkBtn link="https://mevisio.com/" text="Mevisio AB" />, as a Full Stack Engineer. Mevisio is a small but
           dynamic company building a highly flexible platform for factory workflows. The main product allows customers
           to create customizable whiteboards to streamline data visualization and information flow across all company
-          levels.
+          levels. I was also responsible for the internal tool to manage the customers.
         </SectionParagraph>
         <SectionParagraph>
           The project pushes the boundaries of several technologies, and I’m proud of what I’ve achieved here. I’ve
