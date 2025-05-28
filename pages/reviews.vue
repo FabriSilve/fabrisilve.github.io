@@ -2,29 +2,18 @@
   <NuxtLayout name="page">
     <MainTitle>Reviews</MainTitle>
     <MainParagraph class="-mt-2">
-      In my career I had the opportunity to work with a lot of different people and companies. Here are some of the reviews I received.
+      In my career I had the opportunity to work with a lot of different people and companies. Here are some of the
+      feedbacks I received from colleagues and partners.
     </MainParagraph>
-    <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25"/>
+    <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25" />
     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2 lg:gap-8 mt-8">
       <ul class="space-y-8">
-        <ReviewItem
-          v-for="review in reviewsCol1"
-          :key="review.id"
-          :review="review.review"
-          :name="review.name"
-          :link="review.link"
-          :role="review.role"
-        />
+        <ReviewItem v-for="review in reviewsCol1" :key="review.id" :review="review.review" :name="review.name"
+          :link="review.link" :role="review.role" />
       </ul>
       <ul class="space-y-8">
-        <ReviewItem
-          v-for="review in reviewsCol2"
-          :key="review.id"
-          :review="review.review"
-          :name="review.name"
-          :link="review.link"
-          :role="review.role"
-        />
+        <ReviewItem v-for="review in reviewsCol2" :key="review.id" :review="review.review" :name="review.name"
+          :link="review.link" :role="review.role" />
       </ul>
     </div>
     <!-- <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25"/>
@@ -42,7 +31,7 @@
 </template>
 
 <script lang="ts" setup>
-import {useReviewStore} from "~/store/reviewStore";
+import { useReviewStore } from "~/store/reviewStore";
 
 const { getAllReviews } = useReviewStore();
 
