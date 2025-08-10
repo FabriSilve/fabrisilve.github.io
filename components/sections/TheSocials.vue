@@ -1,5 +1,7 @@
 <template>
-  <div class="flex justify-between items-center">
+  <div
+    class="flex justify-center sm:justify-between items-center flex-col sm:flex-row"
+  >
     <div class="flex gap-1">
       <SocialIcon
         title="Github"
@@ -17,11 +19,21 @@
         icon="ant-design:instagram-outlined"
       />
     </div>
-    <ActionButton link="mailto:fabri.silve.fs@gmail.com">Email Me</ActionButton>
+    <div class="flex gap-4">
+      <ActionButton link="mailto:me@fabrisilve.com">Contact Me </ActionButton>
+      <ActionButton :link="resumeLink">Download CV </ActionButton>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import ActionButton from "../ui/ActionButton.ts";
-import SocialIcon from "../ui/SocialIcon.ts";
+import ActionButton from "../ui/ActionButton";
+import SocialIcon from "../ui/SocialIcon";
+
+// @ts-ignore
+const pdfs = import.meta.glob("../../assets/pdf/*.pdf", {
+  as: "url",
+  eager: true,
+});
+const resumeLink = pdfs["../../assets/pdf/silvestri.pdf"];
 </script>
