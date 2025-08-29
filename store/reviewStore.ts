@@ -15,11 +15,10 @@ export const useReviewStore = defineStore<string, ReviewStore>(
       },
       {
         name: "Pandi Cunoti",
-        role: "Full Stack Developer at Fimento",
+        role: "Full Stack Developer at Pingwire",
         review:
           "Food is excellent, the service even better. Incredibly competent chef and the served product is of very high quality (edible, as in food as well as inedible, as in code).",
         link: "https://www.linkedin.com/in/pandicunoti/",
-        highlighted: true,
         score: 2,
       },
       {
@@ -62,6 +61,42 @@ export const useReviewStore = defineStore<string, ReviewStore>(
           "I think you are great at a lot of things. Guiding people, figure solutions out, social behavior, adapting to a new task or role, communicating to other parties, etc.",
         link: "https://www.linkedin.com/in/david-vergnault/",
         score: 1,
+      },
+      {
+        score: 5,
+        highlighted: true,
+        name: "Anders Berg",
+        role: "Software Developer at Mevisio",
+        review:
+          "Working with Fabrizio is the best! You’re geting a caring Italian grandmother and a super talented colleague for the price of one!",
+        link: "https://www.linkedin.com/in/andersberg86/",
+      },
+      /*
+        {
+            score: 0,
+            name: "",
+            role: "",
+            review: "",
+            link: ""
+        }
+        */
+      {
+        score: 5,
+        name: "Johanna Kveton",
+        role: "Software Engineer at Mevisio",
+        review:
+          "Working with Fabbe is a delight. His relentless curiosity and positive attitude continue to baffle me every day. Having him on the team is a win on every level.",
+        link: "https://www.linkedin.com/in/johanna-c-kveton/",
+        highlighted: true,
+      },
+      {
+        score: 5,
+        highlighted: true,
+        name: "Emil Broman",
+        role: "Software Engineer Consultant",
+        review:
+          "Fabrizio is a bundle of joy every day. He always maintains a cheery disposition and an enthusiastic presence. On top of this, he's a highly competent software engineer on the full stack, ranging from UI engineering to cloud infrastructure. Highly recommend!",
+        link: "https://www.linkedin.com/in/emilbroman/",
       },
       {
         name: "Yutong Xu",
@@ -111,15 +146,6 @@ export const useReviewStore = defineStore<string, ReviewStore>(
         link: "https://www.linkedin.com/in/max-flytstrom/",
         score: 1,
       },
-      /*
-        {
-            id: 0,
-            name: "",
-            role: "",
-            review: "",
-            link: ""
-        }
-        */
     ];
 
     return {
@@ -128,4 +154,3 @@ export const useReviewStore = defineStore<string, ReviewStore>(
     };
   },
 );
-
