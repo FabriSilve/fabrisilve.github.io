@@ -7,7 +7,7 @@
         <div
           class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2 lg:gap-8 mt-8"
         >
-          <ul class="space-y-8">
+          <ul class="hidden space-y-8 sm:block">
             <ReviewItem
               v-for="review in reviewsCol1"
               :key="review.name"
@@ -17,7 +17,7 @@
               :role="review.role"
             />
           </ul>
-          <ul class="hidden space-y-8 sm:block">
+          <ul class="space-y-8">
             <ReviewItem
               v-for="review in reviewsCol2"
               :key="review.name"
