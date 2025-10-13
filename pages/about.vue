@@ -23,7 +23,13 @@
         <SectionParagraph>
           You can find some of my experimental side projects on my
           <LinkBtn link="https://github.com/FabriSilve" text="Github" /> or on
-          my <LinkBtn link="/" text="Portfolio" /> page.
+          my
+          <NuxtLink
+            to="/projects"
+            class="border-b-2 border-link_border hover:border-link_border_hover hover:text-link_text_hover transition-colors text-link"
+            >Portfolio</NuxtLink
+          >
+          page.
         </SectionParagraph>
         <SectionParagraph>
           Outside of work, I enjoy playing the ukulele, doing film photography,
