@@ -27,7 +27,6 @@ export const useReviewStore = defineStore<string, ReviewStore>(
         review:
           "Fabrizio's positive attitude gives you an instant trust that your common objective not only will be completed efficiently but will also leave you with a very pleasant experience.",
         link: "https://www.linkedin.com/in/mikaelostberg",
-        highlighted: true,
         score: 5,
       },
       {
@@ -71,6 +70,24 @@ export const useReviewStore = defineStore<string, ReviewStore>(
           "Working with Fabrizio is the best! You’re geting a caring Italian grandmother and a super talented colleague for the price of one!",
         link: "https://www.linkedin.com/in/andersberg86/",
       },
+      {
+        score: 5,
+        name: "Gabriel Varachaud",
+        role: "Head of Presales & Solutions at Mevisio",
+        review:
+          "Fabrizio’s professionalism, creativity, and customer-oriented mindset make every collaboration smooth and enjoyable. His pedagogical approach in support activities helps others learn and grow with confidence. If teamwork had a Michelin guide, he would definitely earn three stars!",
+        link: "https://www.linkedin.com/in/gabrielvarachaud/",
+        highlighted: true,
+      },
+      {
+        score: 5,
+        name: "Hannah Ehlenbach",
+        role: "Project Manager, Solutions at Mevisio",
+        review:
+          "Fabrizio is a passionate developer with infectious enthusiasm and positivity. He is a joy to work with: cooperative, professional, and solution-oriented.",
+        link: "https://www.linkedin.com/in/hannahehlenbach/",
+        highlighted: true,
+      },
       /*
         {
             score: 0,
@@ -78,8 +95,17 @@ export const useReviewStore = defineStore<string, ReviewStore>(
             role: "",
             review: "",
             link: ""
-        }
+        },
         */
+      {
+        score: 5,
+        name: "Johan Hällgren",
+        role: "Enterprise AE at Mevisio ",
+        review:
+          "Fabrizio brings great energy/vibes to the team and is always a pleasure to be around. His positive attitude makes collaboration enjoyable, and he consistently maintains a high level of professionalism. Great guy!",
+        link: "https://www.linkedin.com/in/haellgren/",
+        highlighted: true,
+      },
       {
         score: 5,
         name: "Johanna Kveton",
