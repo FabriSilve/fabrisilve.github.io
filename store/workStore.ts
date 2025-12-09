@@ -22,7 +22,7 @@ export const useWorkStore = defineStore<string, WorkStore>("workStore", () => {
     {
       id: 4,
       name: "Moank AB",
-      position: "Tech Leader Developer",
+      position: "Tech Leader Engineer",
       from: "10/2021",
       to: "05/2023",
       link: "https://moank.se/",
@@ -30,7 +30,7 @@ export const useWorkStore = defineStore<string, WorkStore>("workStore", () => {
     {
       id: 3,
       name: "Moank AB",
-      position: "Full Stack Developer",
+      position: "Full Stack Engineer",
       from: "08/2018",
       to: "10/2021",
       link: "https://moank.se/",

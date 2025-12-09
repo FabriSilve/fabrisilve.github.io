@@ -32,7 +32,7 @@ useHead({
     },
     {
       name: "description",
-      content: "Full Stack Developer and tech enthusiast",
+      content: "Full Stack Engineer and tech enthusiast",
     },
     {
       name: "og:description",

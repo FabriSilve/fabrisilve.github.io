@@ -3,7 +3,7 @@
     <div class="flex justify-center">
       <img :src="profileImg" alt="" class="w-72 h-auto md:w-96 rounded-full " />
     </div>
-    <MainTitle><i className="text-sm sm:text-lg md:text-2xl lg:text-3xl">joy</i>Full Stack Developer</MainTitle>
+    <MainTitle><i className="text-sm sm:text-lg md:text-2xl lg:text-3xl">joy</i>Full Stack Engineer</MainTitle>
     <MainParagraph>
       I'm Fabrizio Silvestri, a curious Software Engineer. I specialised my skills in Web Development with NodeJS, NoSQL
       databases and RESTful APIs. I am also a fan of Javascript frameworks, working with React and

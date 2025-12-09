@@ -24,34 +24,29 @@
           You can find some of my experimental side projects on my
           <LinkBtn link="https://github.com/FabriSilve" text="Github" /> or on
           my
-          <NuxtLink
-            to="/projects"
-            class="border-b-2 border-link_border hover:border-link_border_hover hover:text-link_text_hover transition-colors text-link"
-            >Portfolio</NuxtLink
-          >
+          <NuxtLink to="/projects"
+            class="border-b-2 border-link_border hover:border-link_border_hover hover:text-link_text_hover transition-colors text-link">
+            Portfolio</NuxtLink>
           page.
         </SectionParagraph>
         <SectionParagraph>
           Outside of work, I enjoy playing the ukulele, doing film photography,
           and cooking. You can follow along with my personal life on
-          <LinkBtn
-            link="https://www.instagram.com/fabri.silve"
-            text="Instagram"
-          />.
+          <LinkBtn link="https://www.instagram.com/fabri.silve" text="Instagram" />.
         </SectionParagraph>
 
         <SectionSeparator>Moank AB</SectionSeparator>
         <SectionParagraph>
-          I started my career as a full-time Full Stack Developer at
+          I started my career as a full-time Full Stack Engineer at
           <LinkBtn link="https://www.moank.se/" text="Moank AB" />, a
           tech-oriented bank based in Stockholm. I was “adopted” by the
           company’s founders in mid-2018 after graduating, when the company was
           still in its startup phase. I contributed to the development of the
           bank’s core system from the very beginning, starting as a Junior
-          Developer.
+          Software Engineer.
         </SectionParagraph>
         <SectionParagraph>
-          Over time, I advanced through several roles — Senior Developer, Team
+          Over time, I advanced through several roles — Senior Software Engineer, Team
           Leader — and eventually became Engineering Manager and CTO. During
           this time, I refined my skills in Moank’s stack: React, Node.js,
           TypeScript, MongoDB, AWS Cloud, and Docker. I also worked with Python
