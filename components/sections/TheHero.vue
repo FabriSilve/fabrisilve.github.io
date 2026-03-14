@@ -10,6 +10,13 @@
       exploring ideas with Vue. My DevOps experience is based on Docker
       and AWS Cloud with a recent dive in the kubernetes dimension.
     </MainParagraph>
+    <!-- <MainParagraph> -->
+    <!--   When I'm not building, I'm digging into practical or theoretical topics and documenting my findings. My -->
+    <!--   <a href="https://notes.fabrisilve.com" -->
+    <!--     class="border-b-2 border-link_border hover:border-link_border_hover hover:text-link_text_hover transition-colors text-link" -->
+    <!--     target="_blank" rel="noopener noreferrer">Field Notes</a> space -->
+    <!--   is where I share investigations, experiments, and those satisfying <strong>"aha!"</strong> moments. -->
+    <!-- </MainParagraph> -->
     <MainParagraph>
       <InlineLink to="about">Read more...</InlineLink>
     </MainParagraph>
