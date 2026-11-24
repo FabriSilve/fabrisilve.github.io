@@ -87,6 +87,44 @@
           opportunities to improve my debugging skills by resolving performance
           issues and production bugs in unfamiliar codebases.
         </SectionParagraph>
+
+        <SectionSeparator>Onelab AB</SectionSeparator>
+        <SectionParagraph>
+          In February 2026 I joined
+          <LinkBtn link="https://onelab.se/" text="Onelab AB" />, which provides
+          physical and digital health check services to companies. The tech team
+          builds both internal tools and customer-facing applications, for
+          employers and employees. The stack is classic: Go services, Node APIs, a
+          Next.js full-stack app and a Svelte frontend, running on Kubernetes with
+          MySQL, MongoDB and Redis. I was promoted to Tech Lead in August 2026.
+        </SectionParagraph>
+        <SectionParagraph>
+          Much of what I’m proud of here is developer experience. I rebuilt the CI/CD
+          flow on self-hosted GitHub runners, with workflows that detect which
+          services changed in the monorepo. A small fix now goes through tests,
+          build and deployment in under 5 minutes, and about 10 minutes in the
+          worst case when everything changes, down from around 40 minutes before.
+          Alongside feature work, I started converting the manually managed
+          Kubernetes clusters to Terraform, so the team can handle upgrades and
+          infrastructure changes more easily.
+        </SectionParagraph>
+        <SectionParagraph>
+          I also worked on visibility. I structured Sentry alerts routed to Slack,
+          built a custom logger package for aggregated logs, and set up Better Stack
+          monitoring with alerts for unhealthy pods and a cluster resources dashboard.
+          When support receives a screenshot of an error
+          page with its unique error code, we can start the investigation from the
+          matching logs and Sentry errors, which has cut debugging time
+          significantly. Colleagues have thanked me for it, saying they can now
+          find issues in under an hour where before it could take a day or more.
+        </SectionParagraph>
+        <SectionParagraph>
+          I also built AI review
+          tooling that runs on every pull request. It checks the change against
+          several topics, compares the implementation with the linked GitHub issue,
+          posts inline comments for critical findings, and adds a summary review.
+          The team uses it several times a day.
+        </SectionParagraph>
       </div>
       <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-6" />
       <div class="flex flex-col gap-5">

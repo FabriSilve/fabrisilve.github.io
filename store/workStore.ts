@@ -4,11 +4,19 @@ import { WorkStore } from "~/types/typings";
 export const useWorkStore = defineStore<string, WorkStore>("workStore", () => {
   const works = [
     {
+      id: 7,
+      name: "Onelab AB",
+      position: "Tech Lead",
+      from: "02/2026",
+      to: "Cur.Day",
+      link: "https://onelab.se/",
+    },
+    {
       id: 6,
       name: 'Mevisio AB',
       position: 'Full Stack Engineer',
       from: '08/2024',
-      to: 'Cur.Day',
+      to: '12/2025',
       link: 'https://mevisio.com',
     },
     {
